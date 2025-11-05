@@ -40,5 +40,5 @@ searchBtn.addEventListener('click', async () => {
   } finally {
     spinner.classList.add('d-none');
   }
-})
+});
 
