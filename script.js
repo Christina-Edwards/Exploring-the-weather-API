@@ -13,7 +13,7 @@ const url = `https://api.weatherbit.io/v2.0/current?city=${city}&country=${count
 searchBtn.addEventListener('click', async () => {
   const lat = 30.47;
   const lon = -90.86;
-  const API_KEY = 'YOUR_API_KEY_HERE';
+  const API_KEY = '9ef8f0686ca24904b403b353e582cb0c';
   const url = `https://api.weatherbit.io/v2.0/current?lat=${lat}&lon=${lon}&key=${API_KEY}`;
 
   spinner.classList.remove('d-none');
