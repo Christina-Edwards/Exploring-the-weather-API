@@ -6,6 +6,9 @@ const weatherCard = document.getElementById('weatherCard');
 
 // Replace with your actual Weatherbit API key
 const API_KEY = '9ef8f0686ca24904b403b353e582cb0c';
+const city = 'Satsuma';
+const country = 'US';
+const url = `https://api.weatherbit.io/v2.0/current?city=${city}&country=${country}&key=${API_KEY}`;
 
 searchBtn.addEventListener('click', async () => {
   const city = cityInput.value.trim();
