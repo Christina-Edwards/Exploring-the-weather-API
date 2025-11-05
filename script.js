@@ -11,8 +11,7 @@ const country = 'US';
 const url = `https://api.weatherbit.io/v2.0/current?city=${city}&country=${country}&key=${API_KEY}`;
 
 searchBtn.addEventListener('click', async () => {
-  const city = cityInput.value.trim();
-  if (!city) return;
+ 
 
   spinner.classList.remove('d-none');
   errorMsg.classList.add('d-none');
