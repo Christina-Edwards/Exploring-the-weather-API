@@ -5,7 +5,7 @@ const errorMsg = document.getElementById('errorMsg');
 const weatherCard = document.getElementById('weatherCard');
 
 // Replace with your actual Weatherbit API key
-const API_KEY = 'YOUR_API_KEY_HERE';
+const API_KEY = '9ef8f0686ca24904b403b353e582cb0c';
 
 searchBtn.addEventListener('click', async () => {
   const city = cityInput.value.trim();
